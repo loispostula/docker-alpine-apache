@@ -26,7 +26,7 @@ RUN apk update && apk upgrade && \
 
     rm -rf /var/cache/apk/*
 
-VOLUME /web
+# VOLUME /web
 
 EXPOSE 80 443
 
